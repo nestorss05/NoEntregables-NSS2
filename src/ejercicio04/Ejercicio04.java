@@ -40,7 +40,7 @@ public class Ejercicio04 {
 			
 		}
 		
-		//Cierra el Scanner
+		//Cierra el Scanner.
 		sc.close();
 	}
 	

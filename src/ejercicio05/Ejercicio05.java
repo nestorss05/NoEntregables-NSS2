@@ -92,7 +92,7 @@ public class Ejercicio05 {
 			
 		}
 				
-		//Cierra el Scanner
+		//Cierra el Scanner.
 		sc.close();
 		
 	}

@@ -62,7 +62,7 @@ public class Ejercicio10 {
 		
 		}
 		
-		//Cierra el Scanner
+		//Cierra el Scanner.
 		sc.close();
 		
 	}
