@@ -6,8 +6,10 @@ public class EjercicioT2_3_04 {
 
 	public static void main(String[] args) {
 
-		// Registro y doy valor a la variable entera num
-		// num guardara el valor que pondra el usuario.
+		/*
+		 * Registro y doy valor a la variable entera num num guardara el valor que
+		 * pondra el usuario.
+		 */
 		int num = 1;
 
 		// Enciende el Scanner para leer datos del teclado

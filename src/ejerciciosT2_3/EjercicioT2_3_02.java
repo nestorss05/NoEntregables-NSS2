@@ -39,7 +39,7 @@ public class EjercicioT2_3_02 {
 		}
 
 		// El programa te mostrara la cantidad de numeros positivos introducidos.
-		System.out.println(numTotal);
+		System.out.println("Numeros positivos introducidos: "+numTotal);
 
 		// Cierra el Scanner
 		sc.close();

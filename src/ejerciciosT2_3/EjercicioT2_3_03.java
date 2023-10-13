@@ -44,7 +44,7 @@ public class EjercicioT2_3_03 {
 		 * El programa te mostrara la media de todos los numeros introducidos, excepto
 		 * el negativo. Para ello, se mostrara la division de numTotal entre contador
 		 */
-		System.out.println((float) numTotal / contador);
+		System.out.println("La media de los numeros introducidos es: "+(float) numTotal / contador);
 
 		// Cierra el Scanner
 		sc.close();
