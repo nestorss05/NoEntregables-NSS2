@@ -7,8 +7,8 @@ public class EjercicioT2_4_05 {
 
 	public static void main(String[] args) {
 
-		// ALEATORIO: estatica a la que se guardara el numero aleatorio
-		final int ALEATORIO;
+		// aleatorio: estatica a la que se guardara el numero aleatorio
+		int numeroAleatorio;
 
 		// numero: respuesta del usuario
 		int numero = 0;
@@ -19,9 +19,6 @@ public class EjercicioT2_4_05 {
 		// Abre el Random y guardalo en la variable aleatorio
 		Random aleatorio = new Random();
 
-		// Se le asignara a ALEATORIO un numero aleatorio entre 1 y 100
-		ALEATORIO = aleatorio.nextInt(1, 101);
-
 		/*
 		 * Bucle: Mientras que el numero no haya sido adivinado, se le preguntara
 		 * continuamente al usuario por un numero
@@ -29,16 +26,18 @@ public class EjercicioT2_4_05 {
 
 		do {
 
+			// Se le asignara a ALEATORIO un numero aleatorio entre 1 y 100, pero continuamente
+			numeroAleatorio = aleatorio.nextInt(1, 101);
 			System.out.println("Adivina un numero");
 			numero = sc.nextInt();
-			if (numero < ALEATORIO) {
+			if (numero < numeroAleatorio) {
 				System.out.println("Mayor");
 			}
-			if (numero > ALEATORIO) {
+			if (numero > numeroAleatorio) {
 				System.out.println("Menor");
 			}
 
-		} while (numero != ALEATORIO); // Fin del bucle
+		} while (numero != numeroAleatorio); // Fin del bucle
 
 		//Se informara que los numeros son iguales y que has ganado
 		System.out.println("Igual. GG");
