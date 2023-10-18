@@ -7,10 +7,11 @@ public class EjercicioT2_3_06 {
 	public static void main(String[] args) {
 
 		/*
-		 * Se registraran las siguientes variables enteras: edad: la edad introducida
-		 * por el usuario edadTotal: la suma de todas las edades introducidas por el
-		 * usuario, menos la ultima negativa contador: el contador de cuantas edades has
-		 * introducido mayorEdad: el contador de cuantos alumnos son mayores de edad
+		 * Se registraran las siguientes variables enteras:
+		 * edad: la edad introducida por el usuario
+		 * edadTotal: la suma de todas las edades introducidas por el usuario, menos la ultima negativa
+		 * contador: el contador de cuantas edades has introducido
+		 * mayorEdad: el contador de cuantos alumnos son mayores de edad
 		 */
 		int edad = 0, edadTotal = 0, contador = 0, mayorEdad = 0;
 
@@ -32,12 +33,6 @@ public class EjercicioT2_3_06 {
 			// De paso, la edad total tambien se suma con esta variable
 			edadTotal = edadTotal + edad;
 
-			// Pide al usuario la edad de un alumno
-			System.out.println("Dime la edad de un alumno");
-
-			// La respuesta se guaradara en la variable edad
-			edad = sc.nextInt();
-
 			// Si la edad es mayor o igual a 18...
 			if (edad >= 18) {
 
@@ -45,6 +40,13 @@ public class EjercicioT2_3_06 {
 				++mayorEdad;
 
 			}
+			
+			// Pide al usuario la edad de un alumno
+			System.out.println("Dime la edad de un alumno");
+
+			// La respuesta se guaradara en la variable edad
+			edad = sc.nextInt();
+						
 		}
 
 		/*
