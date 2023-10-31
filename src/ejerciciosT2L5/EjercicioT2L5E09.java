@@ -42,30 +42,30 @@ public class EjercicioT2L5E09 {
 
 			} // Fin For
 
-		} // Fin If 1
-		
-		// If 2: Si el contador es mayor que 2...
-		if (contador>2) {
-			
-			// Se le informara que el numero no es primo
-			System.out.println("El numero no es primo");
-			
-		} else {
-			
-			// If 2.1: Si el numero en cuestion es el 1...
-			if (numero==1) {
+			// If 1.1: Si el contador es mayor que 2...
+			if (contador>2) {
 				
 				// Se le informara que el numero no es primo
-				System.out.println("El numero no es primo. Motivo: 1 no es primo");
+				System.out.println("El numero no es primo");
 				
 			} else {
 				
-				// Se le informara que el numero no es primo
-				System.out.println("El numero es primo");
+				// If 2.1: Si el numero en cuestion es el 1...
+				if (numero==1) {
+					
+					// Se le informara que el numero no es primo
+					System.out.println("El numero no es primo. Motivo: 1 no es primo");
+					
+				} else {
+					
+					// Se le informara que el numero no es primo
+					System.out.println("El numero es primo");
+					
+				} // Fin If 2.1
 				
-			} // Fin If 2.1
+			} // Fin If 1.1
 			
-		} // Fin If 2
+		} // Fin If 1
 
 		// Cierra el Scanner
 		sc.close();
